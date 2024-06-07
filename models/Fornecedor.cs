@@ -5,7 +5,7 @@ namespace loja.models
     public class Fornecedor
     {
         [Key]
-        public string? Id { get; set; }
+        public int? Id { get; set; }
 
         public string? Cnpj { get; set; }
 
